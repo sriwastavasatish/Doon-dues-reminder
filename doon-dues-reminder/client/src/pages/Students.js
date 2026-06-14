@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import toast from 'react-hot-toast';
-import api from '../../utils/api';
-import { useAuth } from '../../context/AuthContext';
+import api from '../utils/api';
+import { useAuth } from '../AuthContext';
 
 const fmt = n => '₹' + (Number(n)||0).toLocaleString('en-IN');
 

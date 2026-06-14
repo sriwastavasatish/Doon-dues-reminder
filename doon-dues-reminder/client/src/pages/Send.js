@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import toast from 'react-hot-toast';
-import api from '../../utils/api';
+import api from '../utils/api';
 
 const fmt = n => '₹' + (Number(n)||0).toLocaleString('en-IN');
 
