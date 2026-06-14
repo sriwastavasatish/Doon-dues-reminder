@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import api from '../../utils/api';
-import { useAuth } from '../../context/AuthContext';
+import api from '../utils/api';
+import { useAuth } from '../AuthContext';
 
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const COLORS = ['#0EA5E9','#10B981','#F59E0B','#EF4444','#8B5CF6','#F97316'];
