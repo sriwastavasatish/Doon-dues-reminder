@@ -1,0 +1,16 @@
+{
+  "name": "doon-dues-reminder",
+  "version": "1.0.0",
+  "description": "School Fee WhatsApp Reminder System",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start",
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/index.js",
+    "postinstall": "cd client && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
